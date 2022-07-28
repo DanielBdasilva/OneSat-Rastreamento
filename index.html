@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="pt-br">
+  <!-- Head -->
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" ></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="shortcut icon" href="img/Novos/favicon.png">
+    <script type= "text/javascript"src="js/jquery.js"></script>
+    <script type= "text/javascript"src="js/main.js"></script>
+    <!--  Font Awesome  -->
+    <script src="https://kit.fontawesome.com/bf7r05c402.js" crossorigin="anonymous"></script>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>OneSat Rastreamento</title>
+  </head>
+  <!-- Fim Head -->
+  <body>
+    
+    
+    <!-- botão WhatsApp flutuante -->
+    <a href="https://wa.me/5519991249396" style="position:fixed;width:60px;height:60px;bottom:40px;left:2%;background-color:#25d366;color:#FFF;border-radius:50px;text-align:center;font-size:30px;box-shadow: 1px 1px 2px #888;
+      z-index:1000;" target="_blank">
+    <i style="margin-top:16px" class="fab fa-whatsapp"></i>
+    </a>
+    <!-- -->
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light  container-fluid col-lg-12  col-md-12 col-sm-12">
+      <div class="container-fluid">
+        <a class="nav navbar-nav text-white" href="#">
+          <img src="img/Logo1.png" alt="Logo Principal OneSat" class="d-inline-block align-text-top navSmallImg">
+        </a>
+        <button class="navbar-toggler custom-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              
+            </li>
+          </ul>
+          <div class="d-flex">
+            <ul class="navbar-nav  col-md-12 margin">
+              <li class="nav-item m-1">
+                <a class="nav-link active text-white" aria-current="page" href="#divComoFunciona">COMO FUNCIONA</a>
+              </li>
+              <li class="nav-item m-1">
+                <a class="nav-link text-white" href="#divDetalhes">DETALHES</a>
+              </li>
+              <li class="nav-item m-1">
+                <a class="nav-link text-white " href="#divAgricola">RASTREAMENTO</a>
+              </li>
+              <li class="nav-item m-1">
+                <a class="nav-link text-white " href="#divMissao">NOSSA MISSÃO</a>
+              </li>
+              <li class="nav-item m-1">
+                <a class="nav-link text-white" href="#contato">CONTATO</a>
+              </li>
+              <li class="nav-item m-1" >
+                <button type="button" class="btn btn-outline-success me-2" style="border-radius: 15px; background-color: #79c102; text-decoration-color: #0071b5;">
+                  <a class="text-white " target="_blank" href="http://ap3.stc.srv.br/webcliente/onesat" style="text-decoration: none;">ÁREA DO CLIENTE</a>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Fim Navbar -->
+    <!-- Inicio Novo -->
+    <div id="divBannerPrincipal" class="containeres" >
+      <img id="fundoBannerPrincipal" src="img/Novos/Banner Principal Fundo.jpg" alt="">
+      <img id="veiculosBannerPrincipal" data-aos="fade-left" class="boxVeiculos" src="img/Novos/Banner Principal Veiculos.png" alt="">
+      <img id="textoBannerPrincipal" data-aos="fade-right" class="boxTexto" src="img/Novos/Banner Principal Texto.png" alt="">
+      <p id="pPrincipalTexto" data-aos="fade-up" class="boxPrincipalTexto">
+        Você sabia que em caso de furto ou roubo <br>
+        o índice de recuperação de veículos com <br>
+        rastreadores pode chegar a 98%?
+      </p>
+      <a id="botaoBannerPrincipal" class="boxBotao" href="http://ap3.stc.srv.br/webcliente/onesat" target="_blank" rel="noopener noreferrer">
+        <img src="img/Novos/Banner Principal Botao.png" alt="">
+      </a>
+    </div>
+    <!-- Fim Inicio Novo -->
+    
+    <!-- Inicio Como Funciona -->
+    <div id="divComoFunciona" class="containeres" >
+      <img id="fundoComoFunciona" src="img/Novos/como-funciona.jpg" alt="">
+      <p id="pFunciona" data-aos="fade-up" class="boxComoFuncTitulo"> Como funciona o serviço de &nbsp; <br> rastreamento da One Sat? &nbsp; <br><br> </p>
+      <div class="container">
+        <p id="pFuncionaTexto" data-aos="fade-up" class="boxComoFuncTexto">
+          Nossa tecnologia funciona através de um dispositivo <br> que é instalado em um local estratégico do seu veículo<br>
+          ou máquina agrícola. <br><br>
+          Você poderá então acompanhar em tempo real as informações <br>emitidas pelo rastreador através da nossa plataforma na web, <br>
+          e monitorar os percursos que o seu veículo realiza e a localização <br> atual. Em caso de roubo ou furto do veículo, o cliente deverá entrar <br>
+          em contato com a Central de Rastreamento One Sat, que acionamos <br> prontamente nossa Equipe até o local sinalizado pelo rastreador, <br>
+          com o objetivo de recuperar o veículo.
+        </p>
+        <p id="pFuncionaTextoM" data-aos="fade-up" class="boxComoFuncTextoM">
+          Nossa tecnologia funciona através de um <br> dispositivo que é instalado em um local <br>
+          estratégico do seu veículo ou máquina <br> agrícola. <br><br>
+          Você poderá então acompanhar em tempo <br>
+          real as informações emitidas pelo rastreador <br>
+          através da nossa plataforma na web, <br>
+          e monitorar os percursos que o seu veículo <br>
+          realiza e a localização atual. Em caso de <br>
+          roubo ou furto do veículo, o cliente deverá <br>
+          entrar em contato com a Central de <br>
+          Rastreamento One Sat, que acionamos <br>
+          prontamente nossa Equipe até o local <br>
+          sinalizado pelo rastreador, com o objetivo <br>
+          de recuperar o veículo.
+        </p>
+      </div>
+    </div>
+    <!-- Fim Como Funciona -->
+
+    <!-- Inicio Detalhes -->
+    <div id="divDetalhes" class="containeres" >
+      <img id="fundoDetalhes" src="img/Novos/detalhes.jpg" alt="">
+      <p id="pTitDetalhes" data-aos="fade-up" class="boxTitDetalhes"> Veja abaixo alguns detalhes<br> sobre a One Sat Rastreamento</p>
+      <p id="pDescDetalhes" data-aos="fade-up" class="boxDesDetalhes"> 
+        Temos a solução ideal para rastreamento veicular. <br>
+        É possível encontrar itens variados com <br>
+        tecnologia de ponta como bloqueadores <br> 
+        com alta tecnologia e eficácia.  
+      </p>
+      <p id="pDescDetalhesM" data-aos="fade-up" class="boxDesDetalhesM"> 
+        Temos a solução ideal para <br> 
+        rastreamento veicular. <br>
+        É possível encontrar itens variados<br>
+        com tecnologia de ponta como <br>
+        bloqueadores com alta <br>
+        tecnologia e eficácia.  
+      </p>
+      <p id="pTitDetalhes" data-aos="fade-up" class="boxBenefDetalhes"> Benefícios </p>
+      
+      <img id="iconeDetalhe1" data-aos="fade-up" class="boxIconDetalhe1" src="img/Novos/seguranca.png" alt="iconeSegurança">
+      <p data-aos="fade-up"  class="detalhesBeneficioTit1">Aumento da  <br> Segurança</p>
+                
+      <img id="iconeDetalhe2" data-aos="fade-up" class="boxIconDetalhe2" src="img/Novos/combustivel.png" alt="iconeCombustivel">
+      <p data-aos="fade-up"  class="detalhesBeneficioTit2">Gerenciamento <br> de combustível</p>
+      
+      <img id="iconeDetalhe3" data-aos="fade-up" class="boxIconDetalhe3" src="img/Novos/velocidade.png" alt="iconeVelocidade">
+      <p data-aos="fade-up"  class="detalhesBeneficioTit3">Controle de <br> Velocidade</p>
+                  
+      <img id="iconeDetalhe4" data-aos="fade-up" class="boxIconDetalhe4" src="img/Novos/desvios.png" alt="iconeDesviosPista">
+      <p data-aos="fade-up"  class="detalhesBeneficioTit4">Reduza desvios  <br> de Rota</p>
+                
+    </div>
+    <!-- Fim Detalhes -->
+
+    <!-- Inicio Agrícola -->
+    <div id="divAgricola" class="containeres" >
+      <img id="fundoAgricola" src="img/Novos/rastreamento-maquinas.jpg" alt="">
+      <p id="pTitAgricola" data-aos="fade-up" class="boxTitAgricola"> Rastreamento em <br>Máquinas Agrícolas?</p>
+      <p id="pDescAgricola" data-aos="fade-up" class="boxDesAgricola"> 
+        Como é um equipamento pesado <br>
+        rastreado por GPS?  
+      </p>
+      <p id="pDescAgricolaContinuacao" data-aos="fade-up" class="boxDesAgricolaContinuacao"> 
+        A mesma tecnologia que é usada <br>
+        para monitorar veículos da frota é <br>
+        usado para rastrear todos os tipos de <br>
+        equipamentos, como guindastes, <br>
+        escavadeiras e tratores. <br>
+        Dispositivos de rastreamento <br>
+        são colocados no equipamentos <br>
+        para permitir o gerenciamento <br>
+        dos ativos da empresa.
+      </p>
+
+      <p id="pDescAgricolaContinuacaoM" data-aos="fade-up" class="boxDesAgricolaContinuacaoM"> 
+        A mesma tecnologia que é usada para <br>
+        monitorar veículos da frota é usado para <br>
+        rastrear todos os tipos de equipamentos, <br>
+        como guindastes, escavadeiras e tratores. <br>
+        Dispositivos de rastreamento são <br>
+        colocados no equipamentos para permitir o <br>
+        gerenciamento dos ativos da empresa.
+      </p>
+
+      <img id="trator" data-aos="fade-left" class="boxTrator" src="img/Novos/trator.png" alt="imagemTrator">
+      <img id="localize" data-aos="fade-up" class="boxLocalize" src="img/Novos/localize-quadro.png" alt="iconeDesviosPista">
+    </div>
+    <!-- Fim Agrícola -->
+
+    <!-- Inicio Carros e Motos  -->
+    <div id="divCarroMoto" class="containeres" >
+      <img id="fundoCarroMoto" src="img/Novos/carros-motos.jpg" alt="fundoRastreamentoCarroMoto">
+      <p id="pTitCarroMoto" data-aos="fade-right" class="boxTitCarroMoto"> Rastreamento em <br>Carros e Motos</p>
+      <img id="carroMoto" data-aos="fade-right" class="boxCarroMoto" src="img/Novos/carro-moto-bkg.png" alt="imagemCarroMorto">
+      <img id="carroMotobotao" data-aos="fade-right" class="boxBotaoCarroMoto" src="img/Novos/carros-motos-quadro.png" alt="botaoCarromoto">
+      <img id="carroMotoTexto1" data-aos="fade-right" class="boxTextoCarroMoto1" src="img/Novos/carros-motos-locali.png" alt="texto1CarroMoto">
+      <img id="carroMotoTexto2" data-aos="fade-right" class="boxTextoCarroMoto2" src="img/Novos/carros-motos-econo.png" alt="texto2CarroMoto">
+    </div>
+    <!-- Fim Carros e Motos  -->
+
+    <!-- Inicio Onibus e Caminhões  -->
+    <div id="divOnibusCaminhao" class="containeres" >
+      <img id="fundoOnibusCaminhao" src="img/Novos/onibus-caminhoes.jpg" alt="fundoOnibusCaminhoes">
+      <p id="pTitOnibusCam" data-aos="fade-right" class="boxTitOnibusCam"> Rastreamento em <br>Ônibus e Caminhões</p>
+      <img id="OnibusCam" data-aos="fade-right" class="boxOnibusCam" src="img/Novos/onibus-caminhoes-bkg.png" alt="imagemCarroMorto">
+      <p id="pDescOnibusCam" data-aos="fade-up" class="boxDesOnibusCam"> 
+         Proteção e economia para a sua <br>
+         frota de veículos. Mesmo fora da <br>
+         garagem você ainda pode <br>
+         encontrar toda a sua frota em um <br>
+         único lugar. Conheça nossas <br>
+         soluções para sua empresa!
+      </p>
+      <p id="pDescOnibusCamM" data-aos="fade-up" class="boxDesOnibusCamM"> 
+          Proteção e economia para a sua frota de <br>
+          veículos. Mesmo fora da garagem você <br>
+          ainda pode encontrar toda a sua frota <br>
+          em um único lugar. Conheça nossas <br>
+          soluções para sua empresa!
+      </p>
+    </div>
+    <!-- Fim Onibus e Caminhões  -->
+
+    <!-- Inicio Nossa Missão -->
+    <div id="divMissao" class="containeres" >
+      <img id="fundoMissao" src="img/Novos/nossa-missao.jpg" alt="imagemNossaMissao">
+      
+      <p id="pTitMissao" data-aos="fade-right" class="boxTitMissao"> Nossa Missão</p>
+      <p id="pDescMissao" data-aos="fade-right" class="boxDesMissao"> 
+        Proporcionar com qualidade soluções em <br>
+        segurança, por meio de rapidez, tecnologia e <br>
+        ética profissional, proporcionando o bem estar de <br>
+        seus clientes, garantindo a seguranca, solidez e <br>
+        excelência no mercado. Focamos na sua proteção <br>
+        e a de seu patrimônio, sejam estes carros, motos, <br>
+        caminhões, frotas ou máquinas agrícolas.  
+      </p>
+      <p id="pDescMissaoM" data-aos="fade-right" class="boxDesMissaoM"> 
+        Proporcionar com qualidade soluções em <br>
+        segurança, por meio de rapidez, tecnologia e <br>
+        ética profissional, proporcionando o bem <br> 
+        estar de seus clientes, garantindo a <br>
+        segurança, solidez e excelência no mercado. <br>
+        Focamos na sua proteção e a de seu <br>
+        patrimônio, sejam estes carros, motos, <br>
+        caminhões, frotas ou máquinas agrícolas.  
+      </p>
+      <p id="pTitValores" data-aos="fade-right" class="boxTitValores"> Valores </p>
+      <p id="pDescValores" data-aos="fade-right" class="boxDesValores"> 
+        Responsabilidade, ética com transparência e <br>
+        comprometimento com os clientes, buscar <br>
+        inovação continua, excelência e o qualidade de <br>
+        nossos serviços, respeito com nossos clientes e <br>
+        colaboradores.
+      </p>
+      <p id="pDescValoresM" data-aos="fade-right" class="boxDesValoresM"> 
+        Responsabilidade, ética com transparência e <br>
+        comprometimento com os clientes, buscar <br>
+        inovação continua, excelência e o qualidade <br> 
+        de nossos serviços, respeito com nossos <br>
+        clientes e colaboradores. 
+      </p>
+      <p id="pTitVisao" data-aos="fade-right" class="boxTitVisao"> Visão </p>
+      <p id="pDescVisao" data-aos="fade-right" class="boxDesVisao"> 
+        Ser a empresa líder no mercado de rastreamento <br>
+        e monitoramento de sistema de segurança em <br>
+        seu veículo,  reconhecida pela qualidade de <br>
+        nossos serviços prestados, atuando de forma <br>
+        ética e profissional aos nossos clientes e <br>
+        colaboradores.
+      </p>
+      <p id="pDescVisaoM" data-aos="fade-right" class="boxDesVisaoM"> 
+        Ser a empresa líder no mercado de <br>
+        rastreamento e monitoramento de sistema <br>
+        de segurança em seu veículo,  reconhecida <br>
+        pela qualidade de nossos serviços <br>
+        prestados, atuando de forma ética e <br>
+        profissional aos nossos clientes e <br>
+        colaboradores.
+      </p>
+      
+
+    </div>
+    <!-- Fim Nossa Missão -->
+      
+    <!-- Contato -->
+    <article id="contato">
+      <div class="container margin text-white justify-content-center pb-5 pt-5 contato mb-0 ">
+      <div class="row py-3 " >
+          <div class="col-sm-12 col-md-6 col-lg-6 text-white text-center">
+            <span class="contato">Contato</span>
+            <h3 style="font-weight: bold ;">
+            <a href="tel:0800 118 1234 " class="telefone">
+              <span class="telefone">0800 118 1234</span>
+            </a>
+            </h3>
+            <h3>
+              <a class="text-white botaoContato" target="_blank" style="text-decoration: none; font-size: 70%;" href="mailto:comercial@onesatrastreamento.com.br">
+                comercial@onesatrastreamento.com.br
+              </a>
+            </h3>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 text-white text-center">
+            <span class="contato">Redes Sociais</span>
+            <h3 class="contatoIco" >
+              <a class="text-white p-1" target="_blank" style="text-decoration: none; margin: 5px;" href="https://www.instagram.com/onesatrastreamento/">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+                </svg>
+              </a>
+              <a class="text-white p-1" target="_blank" style="text-decoration: none; margin: 5px;" href="https://wa.me/5519991249396">
+                <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                  <path d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z"/>
+                </svg>
+              </a>
+            </h3>
+          </div>
+      </div>
+      </div>
+    </article>
+    <!-- Fim Contato -->
+  
+    <!-- Rodapé -->
+    <footer class="text-white row-md-6 mt-0">
+      <div class="container-fluid text-center Copy" >
+        <span class="Copy">&copy; 2022 - Ativa Design Gráfico <br>
+                                  Todos os direitos Reservados - CNPJ 46.188.323/0001-51 <br>
+                                  One Sat Rastreamento e Monitoramento Veícular Ltda</span>
+      </div>
+    </footer>
+    <!-- Fim Rodapé -->
+  </body>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</html>

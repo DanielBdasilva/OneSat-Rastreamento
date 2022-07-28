@@ -1,0 +1,1459 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    background-color:  #0071b5;
+    font-family: 'Roboto';
+    font-size: bold;
+    margin-bottom: 0px;
+    margin: 0;
+    padding: 0;
+    height: 100vw;
+    width: 100vw;
+}
+
+.emailContato{
+    font-size: 3vw;
+}
+
+.containeres{
+    position: relative;
+}
+
+.telefone{
+    text-decoration:none;
+    height: 50%;
+    color: white;
+}
+.telefoneM{
+    text-decoration:none; 
+    font-size: 6vw;
+}
+
+.boxBotao{
+    position: absolute;
+    height: 20%;
+    width: 22%;
+    top: 57%;
+    left: 14%;
+}
+
+.boxVeiculos{
+    position: absolute;
+    top: 12%;
+    width: 55%;
+    height: 70%;
+    left: 42%;
+    
+}
+.boxCarroMoto{
+    position: absolute;
+    top: 23%;
+    width: 47%;
+    height: 53%;
+    left: 49%;
+    
+}
+.boxCarroMotoM{
+    position: absolute;
+    top: 61%;
+    width: 300px;
+    height: 227px;
+    left: 15%;
+    
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(156, 248, 0, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }
+  
+  .custom-toggler.navbar-toggler{
+    border-color:#0071b5
+  } 
+
+.boxOnibusCam{
+    position: absolute;
+    top: 34%;
+    width: 51%;
+    height: 57%;
+    right: 1%;
+    
+}
+.boxOnibusCamM{
+    position: absolute;
+    top: 60%;
+    width: 90%;
+    height: 40%;
+    left: 5%;
+    
+}
+
+.boxTrator{
+    position: absolute;
+    top: 18%;
+    width: 50%;
+    height: 60%;
+    right: 7.5%;
+    
+}
+.boxBotaoCarroMoto{
+    position: absolute;
+    top: 50%;
+    width: 42%;
+    height: 14%;
+    left: 5%;
+    
+}
+.boxBotaoCarroMotoM{
+    position: absolute;
+    top: 35.5%;
+    width: 84%;
+    height: 12%;
+    left: 8%;
+    
+}
+.boxTextoCarroMoto1{
+    position: absolute;
+    top: 30%;
+    width: 47%;
+    height: 15%;
+    left: 5%;
+    
+}
+.boxTextoCarroMoto2{
+    position: absolute;
+    top: 68%;
+    width: 50vw;
+    height: 10vw;
+    left: 5%;
+    
+}
+
+.boxTextoCarroMoto1M{
+    position: absolute;
+    top: 19%;
+    width: 90%;
+    height: 12%;
+    left: 5%;
+    
+}
+.boxTextoCarroMoto2M{
+    position: absolute;
+    top: 51%;
+    width: 90%;
+    height: 13%;
+    left: 5%;
+    
+}
+
+.boxTratorM{
+    position: absolute;
+    top: 46%;
+    width: 70%;
+    height: 35%;
+    right: 20%;
+    
+}
+
+.boxLocalize{
+    position: absolute;
+    top: 80%;
+    left: 18%;
+    width: 61%;
+    height: 10%;
+    right: 7.5%;
+    
+}
+
+
+.boxLocalizeM{
+    position: absolute;
+    top: 79.5%;
+    height: 17%;
+    width: 90%;
+    right: 5%;
+    
+}
+
+.boxTexto{
+    position: absolute;
+    width: 40%;
+    height: 20%;
+    top: 10%;
+    left: 6.7%;  
+}
+
+.boxIconDetalhe1{
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: 74%;
+    left: 15%;  
+}
+
+.boxIconDetalhe2{
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: 74%;
+    left: 35%;  
+}
+
+.boxIconDetalhe3{
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: 74%;
+    left: 57%;  
+}
+
+.boxIconDetalhe4{
+    position: absolute;
+    width: 7vw;
+    height: 7vw;
+    top: 74%;
+    left: 79%;  
+}
+
+
+.boxIconDetalhe1M{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    top: 63%;
+    left: 28%;  
+}
+
+.boxIconDetalhe2M{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    top: 63%;
+    left: 57%;  
+}
+
+.boxIconDetalhe3M{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    top: 82%;
+    left: 28%;  
+}
+
+.boxIconDetalhe4M{
+    position: absolute;
+    width: 12vw;
+    height: 12vw;
+    top: 82%;
+    left: 57%;  
+}
+
+
+.boxComoFuncTitulo{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 12%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 4.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+.boxTitDetalhes{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 14%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+
+.boxTitAgricola{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    right: 23%;
+    top: 10%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 4.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+.boxTitOnibusCam{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    right: 22.5%;
+    top: 9.5%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 4.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+.boxTitOnibusCamM{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    left: 1%;
+    top: 5.2%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 9vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+.boxTitCarroMoto{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    right: 22.5%;
+    top: 9%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 4.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+.boxTitCarroMotoM{
+    position: absolute;
+    left: 8%;
+    top: 3%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 10vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 95%;
+}
+.boxDesCarroMoto{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    right: 23%;
+    top: 10%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 3vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+.boxTitMissao{
+    position: absolute;
+    left: 16%;
+    top: 4%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+.boxTitValores{
+    position: absolute;
+    left: 23%;
+    top: 39%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+.boxTitVisao{
+    position: absolute;
+    left: 26%;
+    top: 64%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+
+.boxTitMissaoM{
+    position: absolute;
+    left: 26%;
+    top: 3%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 7.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+
+.boxTitValoresM{
+    position: absolute;
+    left: 36.7%;
+    top: 39.5%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 8vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+
+.boxTitVisaoM{
+    position: absolute;
+    left: 40%;
+    top: 65%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 8vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+.boxTitAgricolaM{
+    position: absolute;
+    top: 2%;
+    left: 12%;
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 8vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+.boxTitDetalhesM{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 5%; 
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 5.8vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+.boxDesDetalhes{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 35%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+
+.boxDesAgricola{
+    position: absolute;
+    width: 100%;
+    right: 22%;
+    height: 18%;
+    top: 28%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+
+.boxDesOnibusCam{
+    position: absolute;
+    left: 8%;
+    top: 39.5%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 140%;
+}
+
+.boxDesOnibusCamM{
+    position: absolute;
+    left: 5%;
+    top: 28%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 120%;
+}
+
+.boxDesMissao{
+    position: absolute;
+    left: 4%;
+    top: 13%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+.boxDesValores{
+    position: absolute;
+    left: 5%;
+    top: 47%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+.boxDesVisao{
+    position: absolute;
+    left: 5%;
+    top: 72%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+.boxDesMissaoM{
+    position: absolute;
+    left: 5%;
+    top: 10%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 4.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+.boxDesValoresM{
+    position: absolute;
+    left: 5%;
+    top: 47%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 4.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+.boxDesVisaoM{
+    position: absolute;
+    left: 7.5%;
+    top: 71.2%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 4.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 120%;
+}
+.boxDesAgricolaM{
+    position: absolute;
+    width: 100%;
+    right: 1%;
+    height: 18%;
+    top: 14%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+
+.boxDesAgricolaContinuacao{
+    position: absolute;
+    width: 100%;
+    right: 23%;
+    height: 18%;
+    top: 40%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+
+.boxDesCarMotoContinuacao1{
+    position: absolute;
+    width: 100%;
+    right: 23%;
+    height: 18%;
+    top: 40%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+
+.boxDesCarMotoContinuacao2{
+    position: absolute;
+    width: 100%;
+    right: 23%;
+    height: 18%;
+    top: 40%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+
+
+.boxDesAgricolaContinuacaoM{
+    position: absolute;
+    width: 100%;
+    right: 0%;
+    height: 18%;
+    top: 24%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 4.5vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+
+
+.boxDesDetalhesM{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 20%; 
+    color: white;
+    font-family: Roboto;
+    font-size: 4.8vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 105%;
+}
+.boxBenefDetalhes{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 65%; 
+    color: #0071b3;
+    font-family: Roboto;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+.boxBenefDetalhesM{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    top: 55%; 
+    color: #0071b3;
+    font-family: Roboto;
+    font-size: 7vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+.boxComoFuncTexto{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    right: 1%;
+    top: 30%; 
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    color:white ;
+    line-height: 130%;
+    text-align: center;
+}
+
+.boxPrincipalTexto{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    right: 23%;
+    top: 33%; 
+    font-family: Roboto;
+    font-size: 2.3vw;
+    font-weight: bold;
+    color:white ;
+    line-height: 130%;
+    text-align: center;
+}
+
+
+.boxPrincipalTextoM{
+    position: absolute;
+    width: 100%;
+    height: 18%;
+    right: 0%;
+    top: 27%; 
+    font-family: Roboto;
+    font-size: 4.5vw;
+    font-weight: bold;
+    color:white ;
+    line-height: 130%;
+    text-align: center;
+}
+
+.boxComoFuncTituloM{
+    position: absolute;
+    width: 100vw;
+    top: 12%; 
+    right: 0%;
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 7vw;
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+.boxComoFuncTextoM{
+    position: absolute;
+    width: 100vw;
+    height: 100vw;
+    text-align: center;
+    top: 28%; 
+    font-family: Roboto;
+    font-size: 4.5vw;
+    left: 0%;
+    font-weight: bold;
+    color:white ;
+    line-height: 110%;
+}
+
+
+.boxBotaoM{
+    position: absolute;
+    top: 82%;
+    left: 25%;
+    width: 50%;
+    height: 15%;
+    
+}
+
+.boxVeiculosM{
+    position: absolute;
+    top: 39%;
+    width: 90%;
+    height: 40%;
+    right: 8%;
+    
+}
+
+.boxTextoM{
+    position: absolute;
+    width: 90%;
+    height: 15%;
+    top: 10%;
+    right: 5%;
+    
+}
+
+
+a:link 
+{
+    font-size: 16px;
+}
+   
+a:hover 
+{
+    font-size: 18px;
+    font-family: 'Roboto';
+    font-style: blue;
+}
+
+a:active
+{
+    color: #79c102;
+}
+
+a.green:visited {
+    color:#79c102;
+}
+
+nav
+{
+    background-color: #0071b5;
+    margin-right: 10px;
+    margin-left: 10px;
+    align-content: right;
+}
+
+nav div{
+    background-color: #0071b5;  
+}
+
+
+.navSmall{
+    background-color: #0071b5;
+    max-width: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 2px;
+}
+
+.navSmallImg{
+    display: inline;
+    height: 50px;
+    padding: 2px;
+}
+
+.Copy{
+    font-family: 'Roboto';
+    font-size: 12px;
+    display: inline-block;
+}
+
+.minCopy{
+    font-family: 'Roboto';
+    font-size: 10px;
+}
+
+footer span{
+    
+    padding: 0px;
+    margin: 0px;
+}
+footer{
+    padding-top: 4px;
+    padding-bottom: 0px;
+    background-color: #0382D1;
+    padding-bottom: 0px;
+}
+
+.contato{
+    color: #9cf800;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 3vw;
+    display: inline-block;
+    background-color: #0071b5;
+}
+
+.botaoContato{
+    color: white;
+    text-decoration: none;
+}
+
+
+.contatoM{
+    color: #9cf800;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 6vw;
+    display: inline-block;
+    background-color: #0071b5;
+}
+
+.contatoDescr
+{
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 3vw;
+    display: inline-block;
+}
+
+.contatoIco
+{
+    color: white;
+    font-family: Roboto;
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.missao{
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: clamp(0.5em, 1em + 3vw, 2em);
+    font-weight: bold;
+    text-align: center;
+    line-height: 100%;
+}
+
+
+.agricola{
+    position: absolute;
+    left: 5%;
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: clamp(0.5em, 1em + 3vw, 2em);
+    font-weight: bold;
+    line-height: 100%;
+    text-align: center;
+}
+
+.missaoGrande{
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: clamp(0.5em, 1em + 3vw, 2em);
+    font-weight: bold;
+}
+
+
+.missaoTexto
+{
+    font-family: Roboto;
+    font-size: clamp(0.3em, 0.5em + 1vw, 2em);
+    font-weight: bold;
+    text-decoration-color:white;
+    line-height: 100%;
+}
+
+
+.agricolaTexto
+{
+    position: absolute;
+    font-family: Roboto;
+    padding-top: 10%;
+    left: 7%;
+    font-size: 2.2vw;
+    line-height: 100%;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-color:white;
+}
+
+.agricolaTextoDesc
+{
+    position: absolute;
+    font-family: Roboto;
+    padding-top: 17%;
+    left: 7%;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-color:white;
+    line-height: 100%;
+}
+
+.missaoTextoDesc
+{
+    position: absolute;
+    font-family: Roboto;
+    padding-top: 8%;
+    left: 7%;
+    font-size: 2vw;
+    font-weight: bold;
+    text-align: center;
+    text-decoration-color:white;
+    line-height: 120%;
+}
+
+.missaoTextoGrande
+{
+    font-family: Roboto;
+    font-size: clamp(0.3em, 0.5em + 1vw, 2em);
+    font-weight: bold;
+    text-decoration-color:white;
+    line-height: 35px;
+}
+
+.rastreamentoTexto
+{
+    font-family: Roboto;
+    padding-top: 20%;
+    left: 2px;
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration-color:white;
+    line-height: 35px;
+}
+.rastreamentoTitulo
+{
+    font-family: Roboto;
+    padding-top: 90%;
+    left: 1%;
+    font-size: 27px;
+    font-weight: bold;
+    text-decoration-color:white;
+    line-height: 50px;
+}
+
+.inicio{
+    color: #79c102;
+    font-family: Roboto;
+    font-size: 63px;
+    font-weight: bold;
+    display: block;
+    background-color: #0071b5;
+}
+.inicioTexto
+{
+    font-family: Roboto;
+    font-size: 63px;
+    font-weight: bold;
+    text-decoration-color:white;
+    line-height: 65px;
+}
+
+span
+{
+    color:white;
+    font-family: Roboto;
+    font-size: bold;
+    font-size: 25px;
+}
+img{
+    width: 100%;
+}
+
+.conteiner img
+{
+    width: 100%;
+    position: relative;
+}
+.conteiner1 img
+{
+    width: 100%;
+    position: relative;
+}
+
+.nossaMissao{
+    position: absolute;
+    bottom: 60px;
+    top: 2580px;
+    left: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.rastreamento{
+    position: absolute;
+    bottom: 60px;
+    top: 1670px;
+    left: 50px;
+    text-align: center;
+    padding: 10px;
+}
+
+.principalTexto{
+    position: relative;
+    top: 4%;
+    left: 8%;
+    width: 40%;
+    display: block;
+}
+
+.principalTextoBTN{
+    position: absolute;
+    top: 250%;
+    left: 10%;
+    width: 100%;
+    display:inline-flex;
+    color: white;
+}
+
+.principalTextoVeiculos{
+    position: absolute;
+    height: auto;
+    top: 6%;
+    left: 35%;
+    width: 60%;
+    display: block;
+}
+
+.rastreamentoImagem{
+    padding-top: 40%;
+    padding-left: 30%;
+    padding-right: 0%;
+    width: 82%;
+}
+
+
+.principalImagem{
+    padding-top: 30%;
+    padding-left: 30%;
+    padding-right: 0%;
+    width: 100%;
+}
+
+.btnPrincipal{
+    position: relative;
+    top: 100px;
+    width: 50%;
+}
+.btnPosition{
+    position: relative;
+    top: 150px;
+}
+
+.principalVeiculos{
+    
+    position: absolute;
+    top: 10%;
+    right: 10%;
+    width: 50%;
+}
+
+.rastreamentoImagemDois{
+    padding-top: 85%;
+    padding-left: 3%;
+    padding-right: 0%;
+    width: 82%;
+}
+
+
+.principalImagemDois{
+    padding-top: 85%;
+    padding-left: 3%;
+    padding-right: 0%;
+    width: 50%;
+}
+
+.comofunciona{
+    position: absolute;
+    bottom: 60px;
+    left: 35px;
+    right: 35px;
+    top: 250px;
+    text-align: center;
+    padding: 10px;
+}
+
+.detalhes{
+    position: absolute;
+    bottom: 60px;
+    left: 35px;
+    right: 35px;
+    top: 900px;
+    text-align: center;
+    padding: 10px;
+}
+
+.beneficioTitulo{
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 40px;
+    font-weight: bold;
+    display: block;
+}
+
+.rastreamentoTitulo{
+    color: #9cf800;
+    font-family: Roboto;
+    font-size: 53px;
+    font-weight: bold;
+    display: block;
+}
+
+.detalhesBeneficio{
+    position: absolute;
+    left: 35px;
+    right: 35px;
+    top: 230%;
+    text-align: center;
+    color: #0071b3;
+    font-family: Roboto;
+    font-size: 4.5vw;
+    font-weight: bold;
+}
+
+.detalhesBeneficioTit1{
+    position: absolute;
+    top: 13%;
+    left: 11%;
+    padding-top: 45%;
+    color: black;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    line-height:95%;
+    text-align: center;
+}
+
+.detalhesBeneficioTit2{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    padding-top: 45%;
+    color: black;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    line-height:95%;
+    text-align: center;
+}
+
+.detalhesBeneficioTit3{
+    position: absolute;
+    top: 13%;
+    left: 54%;
+    padding-top: 45%;
+    color: black;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    line-height:95%;
+    text-align: center;
+}
+
+.detalhesBeneficioTit4{
+    position: absolute;
+    top: 13%;
+    left: 74%;
+    padding-top: 45%;
+    color: black;
+    font-family: Roboto;
+    font-size: 2.5vw;
+    font-weight: bold;
+    line-height:95%;
+    text-align: center;
+}
+
+.detalhesBeneficioTit1M{
+    position: absolute;
+    top: 37%;
+    left: 23%;
+    padding-top: 45%;
+    color: black;
+    font-family: Roboto;
+    font-size: 4vw;
+    font-weight: bold;
+    line-height:95%;
+    text-align: center;
+}
+
+.detalhesBeneficioTit2M{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    padding-top: 45%;
+    color: black;
+    font-family: Roboto;
+    font-size: 4vw;
+    font-weight: bold;
+    line-height:95%;
+    text-align: center;
+}
+
+.detalhesBeneficioTit3M{
+    position: absolute;
+    top: 56%;
+    left: 23%;
+    padding-top: 45%;
+    color: black;
+    font-family: Roboto;
+    font-size: 4vw;
+    font-weight: bold;
+    line-height:95%;
+    text-align: center;
+}
+
+.detalhesBeneficioTit4M{
+    position: absolute;
+    top: 56%;
+    left: 50%;
+    padding-top: 45%;
+    color: black;
+    font-family: Roboto;
+    font-size: 4vw;
+    font-weight: bold;
+    line-height:95%;
+    text-align: center;
+}
+
+.detalhesicone1{
+    position: absolute;
+    left: 12%;
+    padding-top : 37%;
+    text-align: center;
+    width: 7%;
+    height: auto;
+}
+
+.detalhesicone2{
+    position: absolute;
+    left: 35%;
+    padding-top : 37%;
+    text-align: center;
+    width: 7%;
+    height: auto;
+}
+.principalG{
+    position: absolute;
+    left: 35%;
+    padding-top : 0%;
+    text-align: center;
+    width: 7%;
+    height: auto;
+}
+
+.detalhesicone3{
+    position: absolute;
+    left: 56%;
+    padding-top : 37%;
+    text-align: center;
+    width: 7%;
+    height: auto;
+}
+
+.detalhesicone4{
+    position: absolute;
+    left: 78%;
+    padding-top : 37%;
+    text-align: center;
+    width: 7%;
+    height: auto;
+}
+
+.centroDireita{
+    position: absolute;
+    bottom: 1%;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.baixoEsquerda{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    padding: 10px;
+}
+.baixoDireita{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.topEsquerda{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+.topDireita{
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    height: 100%;
+}
+
+.thumbnail {
+    position: relative;
+    display: inline-block;
+}
+
+.caption {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+    font-weight: bold;
+}
+
+.captionPrincipal {
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+    font-weight: bold;
+}
+
+.captionBenef {
+    position: absolute;
+    padding-top: 30%;
+    left: 40%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    font-size: 4vw;
+    color: #0071b3;
+    font-weight: bold;
+}
+
+
+
+.captionDescr {
+    position: absolute;
+    top:220%;
+    left: 50%;
+    right: 1%;
+    transform: translate( -50%, -50% );
+    font-size: 2vw;
+    color: white;
+    font-weight: bold;
+    line-height:100%;
+}
+.beneficiosDescr {
+    position: absolute;
+    left: 20%;
+    padding-top: 4%;
+    font-family: Roboto;
+    font-size: 2.6vw;
+    font-weight: bold;
+    text-decoration-color:white;
+    line-height: 100%;
+}
+
+
+.comoFuncionaDescr {
+    position: absolute;
+    padding-top: 40%;
+    margin-left: 1%;
+    left: 40%;
+    transform: translate( -50%, -50% );
+    font-size: 1.9vw;
+    color: white;
+    font-weight: bold;
+    line-height:100%;
+}
+
+.beneficiosTitDescr {
+    position: absolute;
+    top:255%;
+    left: 50%;
+    right: 1%;
+    transform: translate( -50%, -50% );
+    font-size: 5vw;
+    color: #0071b3;
+    font-weight: bold;
+    line-height:100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
